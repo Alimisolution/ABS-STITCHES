@@ -21,6 +21,18 @@ function About() {
         crafted using the finest fabrics and materials, ensuring a luxurious
         feel and a perfect fit
       </p>
+      <div className=" mx-auto mt-10 w-[100%] md:grid-cols-2 grid gap-3">
+        <video
+          src="/img/stylevid.mp4"
+          controls
+          className=" object-cover mx-auto md:w-[45%]"
+        />
+        <video
+          src="/img/stylevid2.mp4"
+          controls
+          className=" object-cover mx-auto md:w-[45%]"
+        />
+      </div>
     </div>
   );
 }
