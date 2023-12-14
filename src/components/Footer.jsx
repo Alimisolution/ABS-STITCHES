@@ -2,7 +2,7 @@ import { FaArrowUp } from "react-icons/fa";
 function Footer() {
   return (
     <>
-      <p className="bg-black text-center text-white py-3 italic sm:mt-24 mt-16">
+      <p className="bg-black text-center text-white py-3 md:text-lg text-xs italic sm:mt-24 mt-16">
         Designed by Alimi Rosheed a.k.a (Alimisolution)
       </p>
       <a
